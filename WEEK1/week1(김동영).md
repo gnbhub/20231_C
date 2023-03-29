@@ -1,0 +1,38 @@
+1-1
+#include <stdio.h>
+
+int main(void) 
+{
+  printf("안녕하세요 전자공학부 23학번 김동영입니다.\n");
+  return 0;
+}
+
+1-2
+#include <stdio.h>
+
+int main(void)
+{
+  int a=0,b=0;
+  
+  printf("첫번째 수를 입력하세요");
+  scanf("%d",&a);
+  printf("두번째 수를 입력하세요");
+  scanf("%d",&b);
+  printf("%d+%d=%d/n",a,b,a+b);
+  return 0;
+}
+
+1-3
+#include<stdio.h>
+
+int main(void)
+{
+  int num=0;
+  printf("양수를 입력하세요. /n");
+  scanf("%d",&num);
+  printf("10진수:%12d /n",num);
+  printf("8진수:%12o /n",num);
+  printf("16진수:%12x /n",num);
+  
+  return 0;
+}
